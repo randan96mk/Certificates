@@ -349,17 +349,17 @@ CONCAT({owner}.{name}," - ",{name})
 
 ---
 
-## Study Priority Matrix
+## Study Priority Matrix (Based on Official Weightings)
 
 | Priority | Domain | Weight | Recommendation |
 |---|---|---|---|
-| **P0 — Critical** | Core Work Management | 26% | Must master thoroughly |
-| **P0 — Critical** | Intake, Planning, Processes | 22% | Must master thoroughly |
-| **P1 — High** | Reporting & Analytics | 16% | Focus on text mode |
-| **P1 — High** | Custom Forms, Access, Layout | 14% | Focus on calculated fields |
-| **P2 — Medium** | Resource Management | 10% | Workload Balancer focus |
-| **P2 — Medium** | Fusion & Integrations | 8% | Scenario design patterns |
-| **P3 — Low** | Proofing & Documents | 4% | Basic understanding |
+| **P0 — Critical** | Methodology / Best Practices / Use Cases | **22%** | Scenario-based; largest domain |
+| **P0 — Critical** | Core System Admin & Setup | 17% | Foundational knowledge |
+| **P1 — High** | Intake, Custom Forms, Project Init | 13% | Calculated fields, forms |
+| **P1 — High** | Strategic: Portfolio & Resource Mgmt | 13% | Portfolio Optimizer, Workload Balancer |
+| **P1 — High** | Document Mgmt & Proofing | 13% | Proof workflows, AEM integration |
+| **P2 — Medium** | Reporting | 11% | Text mode, wildcards |
+| **P2 — Medium** | Business Consulting | 11% | Change management, governance |
 
 ---
 
