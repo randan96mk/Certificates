@@ -13,11 +13,11 @@
 | **Product** | Adobe Workfront |
 | **Delivery** | Online proctored (Examity) or test center |
 | **Language** | English |
-| **Number of Questions** | 65 |
-| **Question Format** | Multiple choice & multiple select |
-| **Time Limit** | 130 minutes |
-| **Passing Score** | 35/65 (~53%) |
-| **Cost** | $225 USD |
+| **Number of Questions** | 53 |
+| **Question Format** | Multiple choice, multiple select, drag-and-drop, scenario-based |
+| **Time Limit** | 106 minutes |
+| **Passing Score** | 35/53 (~66%) |
+| **Cost** | $225 USD ($150 USD in India) |
 | **Validity** | 2 years (requires renewal) |
 | **Prerequisite** | None officially required; Expert-level experience recommended |
 
@@ -47,17 +47,17 @@ This certification is designed for practitioners with **deep hands-on experience
 
 ## Exam Domains at a Glance
 
-| # | Domain | Weight |
-|---|---|---|
-| 1 | Core Work Management | ~26% |
-| 2 | Intake, Planning, and Processes | ~22% |
-| 3 | Reporting, Dashboards, and Analytics | ~16% |
-| 4 | Custom Forms, Access, and Layout | ~14% |
-| 5 | Resource Management | ~10% |
-| 6 | Workfront Fusion and Integrations | ~8% |
-| 7 | Proofing and Document Management | ~4% |
+| # | Domain | Weight | ~Questions |
+|---|---|---|---|
+| 1 | Core System Administration and Setup | 17% | ~9 |
+| 2 | Intake, Custom Forms, and Project Initiation | 13% | ~7 |
+| 3 | Strategic Functionality: Portfolio, Program & Resource Mgmt | 13% | ~7 |
+| 4 | Document Management and Proofing | 13% | ~7 |
+| 5 | Reporting | 11% | ~6 |
+| 6 | Methodology / Best Practices / Use Cases | **22%** | ~12 |
+| 7 | Business Consulting | 11% | ~6 |
 
-> **Architect's Note:** Domains 1-3 account for ~64% of the exam. Prioritize these areas while ensuring solid coverage across all domains.
+> **Architect's Note:** Domain 6 (Methodology/Best Practices) is the heaviest at 22%. Combined with Business Consulting (11%), scenario-based thinking accounts for 33% of the exam. Focus on practical application, not just feature knowledge.
 
 ## Preparation Strategy
 
