@@ -18,6 +18,7 @@
 ### Exam Guide
 - [Exam Overview](./01-Exam-Guide/exam-overview.md)
 - [Domain Breakdown & Objectives](./01-Exam-Guide/domain-breakdown.md)
+- [Latest Updates 2025-2026](./01-Exam-Guide/latest-updates-2025-2026.md) **NEW**
 
 ### Domain Study Notes
 | # | Domain | Weight | Study Notes |
@@ -33,6 +34,7 @@
 ### Practice & Scenarios
 - [Scenario-Based Questions](./09-Scenario-Questions/README.md)
 - [Practice Q&A Bank](./10-Practice-QA/README.md)
+- [Extended Questions (Internet-Sourced)](./10-Practice-QA/extended-questions.md) **NEW — 25 additional questions**
 
 ---
 

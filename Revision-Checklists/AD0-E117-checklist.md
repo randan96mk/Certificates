@@ -148,4 +148,23 @@
 
 ---
 
+## NEW: 2025-2026 Features to Know
+
+- [ ] **Edge Delivery Services (conceptual):** When to recommend EDS vs traditional AEM
+- [ ] **Universal Editor:** New WYSIWYG editing for headless/EDS content
+- [ ] **Content Fragment OpenAPI:** Programmatic CF management (2026.2.0)
+- [ ] **Quiet Hours (GA):** Schedule update-free periods in AEMaaCS
+- [ ] **JSON-based index management:** Simplified Oak index definitions (2026.3.0)
+- [ ] **Cloud Manager MCP Server:** AI IDE interaction with Cloud Manager
+- [ ] **Incremental builds:** Module-level caching in CI/CD pipeline
+- [ ] **Optional publish tier:** When using Edge Delivery for delivery
+- [ ] **TipTap editor:** Replacing TinyMCE for rich text (2026.3.0)
+- [ ] **Java API deprecations:** March 30, 2026 deadline
+- [ ] **Content Advisor:** AI-powered asset discovery in Sites
+- [ ] **Automatic malware scanning:** For uploaded assets (2025.12.0)
+- [ ] **Proctoring change:** Meazure Learning / ProctorU with Guardian browser
+- [ ] **EDS-D200 separate cert:** AD0-E117 retains traditional AEM focus
+
+---
+
 *Confidence Check: Mark each item. Anything unchecked = study priority.*

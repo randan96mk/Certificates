@@ -173,4 +173,38 @@ An organization wants to track creative asset production from request to publica
 
 ---
 
+## NEW: 2025-2026 Feature Quick-Fire
+
+### Workfront New Features
+
+| # | Question | Answer |
+|---|---|---|
+| 1 | What is Workfront Planning? | Metadata layer for content supply chain with record types, workspaces, connections |
+| 2 | What can the AI Assistant do? | Locate items, generate formulas, summarize updates, write business rules |
+| 3 | What replaced G Suite/Jira/Salesforce integrations? | Fusion (legacy integrations retired Feb 28, 2026) |
+| 4 | What is Unified Review & Approval? | Frame.io integration for combined project mgmt + content review |
+| 5 | What are Canvas Dashboards? | Flexible drag-and-drop visualization builder (Open Beta) |
+| 6 | What are Fusion chain scenarios? | Parent-child scenario references for reusable automation logic |
+| 7 | What is the current Workfront API version? | v21 (released Oct 2025, breaking changes to Event Subscriptions) |
+| 8 | Max custom forms per object? | 10 |
+| 9 | What proctoring platform is used? | Meazure Learning / ProctorU with Guardian browser |
+| 10 | Are certification renewals available? | **ON HOLD** — contact Adobe support for guidance |
+
+### AEM New Features
+
+| # | Question | Answer |
+|---|---|---|
+| 1 | What is Edge Delivery Services? | Serverless, CDN-first content delivery with sub-second loads |
+| 2 | Does AD0-E117 cover EDS in depth? | No — separate EDS-D200 cert exists; AD0-E117 retains traditional AEM focus |
+| 3 | What is the Universal Editor? | WYSIWYG editing for headless/EDS content in AEMaaCS |
+| 4 | What replaced TinyMCE in AEM? | TipTap editor (2026.3.0 release) |
+| 5 | What is Cloud Manager MCP Server? | AI IDE interaction with Cloud Manager via natural language |
+| 6 | What are Quiet Hours in AEMaaCS? | Schedule update-free periods (no Adobe updates during critical times) |
+| 7 | What is the Content Advisor? | AI-powered intelligent asset discovery for authors |
+| 8 | Can publish tier be optional in AEMaaCS? | Yes, when using Edge Delivery Services for content delivery |
+| 9 | What are AEM Edge Functions? | CDN-layer JavaScript execution (Beta) |
+| 10 | Java API deprecation deadline? | March 30, 2026 — audit all custom bundles |
+
+---
+
 *[Back to Main README](../README.md)*

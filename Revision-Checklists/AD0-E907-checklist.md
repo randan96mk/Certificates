@@ -107,4 +107,19 @@ Text Mode:
 
 ---
 
+## NEW: 2025-2026 Features to Know
+
+- [ ] **Workfront Planning:** Record types, workspaces, connections, planning requests
+- [ ] **AI Assistant:** Formula generation, item location, document summarization
+- [ ] **Unified Review & Approval:** Frame.io integration for video review
+- [ ] **Canvas Dashboards (Beta):** Flexible visualization builder
+- [ ] **Fusion Chain Scenarios:** Parent-child scenario reuse
+- [ ] **Legacy deprecations:** G Suite, Jira, Salesforce integrations retired Feb 2026
+- [ ] **API v21:** Breaking changes to Event Subscriptions
+- [ ] **Rich Text Fields:** Replacing Text with Formatting (Q2 2026)
+- [ ] **Multi-select External Lookup:** New custom form field type
+- [ ] **Proctoring change:** Meazure Learning / ProctorU with Guardian browser
+
+---
+
 *Confidence Check: Mark each item. Anything unchecked = study priority.*
