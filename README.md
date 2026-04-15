@@ -4,15 +4,27 @@
 
 ## Target Certifications
 
-| Certification | Exam Code | Level | Status |
-|---|---|---|---|
-| Adobe Workfront Core Developer Expert | AD0-E907 | Expert | Preparing |
-| AEM Sites Architect Master | AD0-E117 | Master | Preparing |
+| Certification | Exam Code | Level | Questions | Time | Status |
+|---|---|---|---|---|---|
+| Adobe Workfront Core Developer Expert | AD0-E907 | Expert | 53 | 106 min | Preparing |
+| AEM Sites Architect Master | AD0-E117 | Master | 50 | 100 min | Preparing |
+| Adobe Workfront Fusion Developer Professional | AD0-E902 | Professional | 51 | 102 min | Preparing |
 
 ## Repository Structure
 
 ```
 Certificates/
+├── AD0-E902-Workfront-Fusion-Developer-Professional/
+│   ├── 01-Exam-Guide/              # Exam blueprint, domains, weightings
+│   ├── 02-Fusion-Core-Concepts/     # Modules, triggers, functions, data stores
+│   ├── 03-Scenario-Design-Architecture/ # Flow control, patterns, scheduling
+│   ├── 04-Data-Structures-Functions/   # Schemas, transformations
+│   ├── 05-Error-Handling-Testing/   # 5 error handlers, testing strategies
+│   ├── 06-Connectors-APIs/         # HTTP module, webhooks, JSON, auth
+│   ├── 07-Advanced-Patterns/       # Architecture patterns, optimization
+│   ├── 08-Scenario-Questions/      # Real-world scenario Q&A
+│   └── 09-Practice-QA/             # Practice questions by domain
+│
 ├── AD0-E907-Workfront-Core-Developer-Expert/
 │   ├── 01-Exam-Guide/              # Exam blueprint, domains, weightings
 │   ├── 02-Core-Work-Management/     # Projects, tasks, issues, timelines
