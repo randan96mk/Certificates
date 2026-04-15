@@ -1,4 +1,4 @@
-# Domain 4: APIs, Connectors & Webhooks (~20%)
+# Domain 4: Working with APIs (10% — ~5 questions)
 
 [Back to AD0-E902 Index](../README.md)
 

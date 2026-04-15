@@ -9,11 +9,15 @@
 | | |
 |---|---|
 | **Exam Code** | AD0-E902 |
-| **Level** | Professional |
-| **Questions** | 33 |
-| **Time** | 64 minutes |
-| **Passing Score** | 63% (21/33) |
-| **Cost** | $125 USD |
+| **Level** | Professional (0-12 months experience) |
+| **Questions** | 51 |
+| **Time** | 102 minutes |
+| **Passing Score** | 64.7% (33/51) |
+| **Cost** | $125 USD (global) / $95 USD (India) |
+| **Delivery** | Online proctored (requires camera access) |
+| **Language** | English |
+| **Validity** | 2 years (renewal currently paused; see exam overview) |
+| **Last Updated** | October 2024 (exam objectives); still active as of 2026 |
 
 ## Navigation
 
@@ -22,15 +26,15 @@
 - [Domain Breakdown & Objectives](./01-Exam-Guide/domain-breakdown.md)
 
 ### Domain Study Notes
-| # | Domain | Weight | Study Notes |
-|---|---|---|---|
-| 1 | Fusion Core Concepts | ~26% | [Study Notes](./02-Fusion-Core-Concepts/README.md) |
-| 2 | Scenario Design & Architecture | ~32% | [Study Notes](./03-Scenario-Design-Architecture/README.md) |
-| 3 | Data Structures & Functions | ~22% | [Study Notes](./04-Data-Structures-Functions/README.md) |
-| 4 | Error Handling & Testing | ~20% | [Study Notes](./05-Error-Handling-Testing/README.md) |
+| # | Domain | Weight | ~Questions | Study Notes |
+|---|---|---|---|---|
+| 1 | Foundational Technical Concepts | **39%** | ~20 | [Study Notes](./02-Fusion-Core-Concepts/README.md) |
+| 2 | Scenario Design & Architecture | **35%** | ~18 | [Study Notes](./03-Scenario-Design-Architecture/README.md) |
+| 3 | Testing & Error Handling | **16%** | ~8 | [Study Notes](./05-Error-Handling-Testing/README.md) |
+| 4 | Working with APIs | **10%** | ~5 | [Study Notes](./06-Connectors-APIs/README.md) |
 
 ### Additional Resources
-- [Connectors & APIs Reference](./06-Connectors-APIs/README.md)
+- [Data Structures & Functions](./04-Data-Structures-Functions/README.md)
 - [Advanced Patterns & Best Practices](./07-Advanced-Patterns/README.md)
 
 ### Practice & Scenarios
@@ -39,6 +43,6 @@
 
 ---
 
-> **Note:** Domain 2 (Scenario Design & Architecture) at 32% is the most heavily weighted. Combined with Core Concepts (26%), scenario-building knowledge accounts for 58% of the exam.
+> **Note:** Sections 1 and 2 together (Foundational Technical Concepts at 39% + Scenario Design & Architecture at 35%) account for **74% of the exam**. These two domains should receive the majority of your study time. The exam uses scenario-based questions: "Given a Fusion scenario..." and asks you to identify correct modules, functions, expressions, or design approaches.
 
 *[Back to Main README](../README.md)*

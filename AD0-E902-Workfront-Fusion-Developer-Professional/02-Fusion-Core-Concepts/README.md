@@ -1,4 +1,4 @@
-# Domain 1: Fusion Core Technical Concepts (~26%)
+# Domain 1: Foundational Technical Concepts (39% — ~20 questions) **HEAVIEST DOMAIN**
 
 [Back to AD0-E902 Index](../README.md)
 

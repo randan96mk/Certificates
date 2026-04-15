@@ -1,4 +1,4 @@
-# Domain 3: Testing, Error Handling & Troubleshooting (~22%)
+# Domain 3: Testing & Error Handling (16% — ~8 questions)
 
 [Back to AD0-E902 Index](../README.md)
 

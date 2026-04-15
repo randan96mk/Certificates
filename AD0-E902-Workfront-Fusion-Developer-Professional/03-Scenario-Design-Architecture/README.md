@@ -1,4 +1,4 @@
-# Domain 2: Scenario Design & Architecture (~32%)
+# Domain 2: Scenario Design & Architecture (35% — ~18 questions)
 
 [Back to AD0-E902 Index](../README.md)
 
