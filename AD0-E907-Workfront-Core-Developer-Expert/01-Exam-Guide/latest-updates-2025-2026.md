@@ -12,9 +12,13 @@
 | **Scheduling** | Up to 60 days in advance via [certification.adobe.com](https://certification.adobe.com/) |
 | **Summit 2026** | Free exam with full conference pass (April 19-22, Las Vegas) |
 | **Renewal Status** | **ON HOLD** — Adobe is overhauling the renewal process. Monitor the certification portal. |
-| **Related Exam Update** | Project Manager exam updated from AD0-E903 → AD0-E911 (Jan 2026). AD0-E907 may follow. |
+| **Exam Status (mid-2026)** | **UNCHANGED & ACTIVE** — AD0-E907 remains the current exam ID (verified via [certification.adobe.com/courses/211](https://certification.adobe.com/courses/211)) |
+| **Related Exam Update** | The AD0-E903 → AD0-E911 renumbering affected the **Project Manager** track ONLY (not AD0-E907) |
+| **Cert Overview Last Updated** | Adobe Workfront certification [overview page](https://experienceleague.adobe.com/en/docs/certification/program/technical-certifications/aw/aw-overview) last updated **May 4, 2026** |
 
 > **Important:** Certification renewals have been on hold since late 2024. If your certification is approaching expiration, contact [Adobe support](https://certification.adobe.com/support/contactus) directly.
+
+> **Confirmed (mid-2026):** Despite the Project Manager exam being renumbered (AD0-E903 → AD0-E911 in Jan 2026), there is **no official evidence** of an AD0-E907 retirement, renumber, or version refresh. It is still the active ID for Workfront Core Developer Expert. Note that a separate lower-tier **Workfront Core Developer – Professional** credential also exists ([course 1046](https://certification.adobe.com/courses/1046)) — don't confuse the two.
 
 ---
 
