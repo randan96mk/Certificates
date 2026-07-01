@@ -11,7 +11,7 @@
 | **Proctoring Platform** | Now **Meazure Learning / ProctorU** with Guardian browser (replaced Examity) |
 | **Scheduling** | Up to 60 days in advance via [certification.adobe.com](https://certification.adobe.com/) |
 | **Summit 2026** | Free exam with full conference pass (April 19-22, Las Vegas) |
-| **Renewal Status** | **ON HOLD** — Adobe is overhauling the renewal process. Monitor the certification portal. |
+| **Renewal Status** | **RESUMED** (~March 2025) — simplified module-based renewal (two ~15-min modules), free, 2-year validity. Note: some Experience League doc pages still show a stale "on hold" banner — trust the live portal. |
 | **Exam Status (mid-2026)** | **UNCHANGED & ACTIVE** — AD0-E907 remains the current exam ID (verified via [certification.adobe.com/courses/211](https://certification.adobe.com/courses/211)) |
 | **Related Exam Update** | The AD0-E903 → AD0-E911 renumbering affected the **Project Manager** track ONLY (not AD0-E907) |
 | **Cert Overview Last Updated** | Adobe Workfront certification [overview page](https://experienceleague.adobe.com/en/docs/certification/program/technical-certifications/aw/aw-overview) last updated **May 4, 2026** |
@@ -137,6 +137,74 @@ Key for Fusion/Integration developers:
 
 ---
 
+## Workfront 2026 Release Highlights (Q1–Q3, Adobe-Confirmed)
+
+These are drawn from Adobe's official Q2 2026 (26.2–26.4) and Q3 2026 (26.5–26.7) release overviews.
+
+### Workfront Planning — GA & 2026 Enhancements
+
+```
+Workfront Planning:
+├── GA since August 28, 2024 (shipped, licensed product)
+├── Planning AI Assistant (GA) — search/create/update/delete records
+│   in page context; can create records from uploaded docs (PPTX/PDF/DOCX)
+├── Planning Designer (Beta) — AI builds workspaces, record types,
+│   fields, formulas, views (even from an uploaded org chart/doc)
+├── Q1 2026: flexible hierarchies (up to 4 levels, 5 per workspace),
+│   global record types, up to 30 connection fields per record type
+├── Q2 2026: trigger-based automations, approval rules for requests,
+│   global search (Ctrl/⌘+K), real-time presence indicators
+├── Q3 2026: record-level permissions, default field values,
+│   Table View redesign, AEM Content Fragment lookups + preview
+└── Planning API v2 (GA May 28, 2026) — programmatic workspace/record CRUD
+```
+
+### AI Agents & MCP (Confirmed on Release Pages)
+
+| Feature | Status | Date |
+|---|---|---|
+| **Content Review AI Collaborator** | GA | Apr 15-16, 2026 (preview Apr 2) |
+| **Content Advisor** (AEM Assets discovery in WF) | GA | Apr 16, 2026 |
+| **GenStudio Foundation** (auto-provisioned to all WF customers) | Provisioned | Mar 31, 2026 |
+| **Workfront MCP Server** (Claude/ChatGPT natural-language access) | GA | July 16, 2026 (Claude + EU support Jun 11) |
+| **Workflow Optimization Agent** | Announced (rolling out) | Summit, Apr 20, 2026 |
+
+> **Nuance:** Adobe's own June 2026 "Workfront Wire" calls the Workflow Optimization Agent and the broader third-party **AI Collaborators** framework "**upcoming** capabilities" — third-party "GA June 2026" claims are unverified. The **Content Review AI Collaborator** (a narrower feature) IS confirmed GA in Q2 2026.
+
+### Other Confirmed 2026 Features
+
+```
+Q2 2026 (26.2–26.4):
+├── Enterprise Operations capabilities suite (GA Apr 15-16)
+│   └── Advanced financials (multi-level cost/billing hierarchies),
+│       historical data tracing, enterprise permissions,
+│       business-rules automation, custom localization
+├── Data Connect auth via RSA keys + Programmatic Access Tokens
+└── Shareable report folders, scheduled report link delivery
+
+Q3 2026 (26.5–26.7, through July 15-16):
+├── Change History List — central admin view of object changes
+├── Native Financial Fields + Rich-Text field type in custom forms
+├── System-wide custom form sharing
+├── Required fields enforced in Bulk Edit
+├── Adobe Express integration for structured review/approval (Jun 15)
+├── AEM status badges on documents; document summary printing
+├── Cloud Storage usage tracking; legacy→Adobe cloud storage conversion
+└── Canvas Dashboard: prompt defaults, persistent selections, currency fields
+```
+
+### API & Records Model Changes
+
+| Change | Date |
+|---|---|
+| **API v22** released (supersedes v21) | May 8, 2026 |
+| **Planning API v2** released | May 28, 2026 |
+| New Record ID field type (Planning) | 2026 |
+| `actualWorkRequired` → `actualWorkRequiredDouble` migration | June 1, 2026 |
+| Legacy connector API v20 deprecation | Scheduled release 28.4 (Apr 2028) |
+
+---
+
 ## Deprecated / Retired Features
 
 | Feature | Status | Replacement |
@@ -146,6 +214,8 @@ Key for Fusion/Integration developers:
 | Salesforce integration (legacy) | **Retired Feb 28, 2026** | Workfront Fusion |
 | Outlook legacy token support | **Ended Oct 1, 2025** | Updated OAuth flow |
 | Text with Formatting field | **Replaced Q2 2026** | Rich Text Fields |
+| Legacy Fusion Photoshop modules | **Deprecated after July 30, 2026** | Migrate scenarios to current modules |
+| Enhanced Analytics | **Deprecating (ongoing)** | Workfront Data Connect |
 
 > **Architect Tip:** If you see exam questions about Jira/Salesforce integrations, the correct answer for new implementations is now "Use Fusion" rather than legacy connectors.
 
