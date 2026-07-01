@@ -174,4 +174,4 @@ Based on community discussions and exam topic analysis, candidates should also h
 
 ---
 
-*Next: [Domain Breakdown →](./domain-breakdown.md)*
+*Next: [Domain Breakdown →](./domain-breakdown.md) | [Latest Updates 2025-2026 →](./latest-updates-2025-2026.md)*

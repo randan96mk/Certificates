@@ -24,6 +24,7 @@
 ### Exam Guide
 - [Exam Overview](./01-Exam-Guide/exam-overview.md)
 - [Domain Breakdown & Objectives](./01-Exam-Guide/domain-breakdown.md)
+- [Latest Updates 2025-2026](./01-Exam-Guide/latest-updates-2025-2026.md) **NEW**
 
 ### Domain Study Notes
 | # | Domain | Weight | ~Questions | Study Notes |
