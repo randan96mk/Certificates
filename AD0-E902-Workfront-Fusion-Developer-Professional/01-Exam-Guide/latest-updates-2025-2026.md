@@ -11,7 +11,7 @@
 | **Proctoring Platform** | **Meazure Learning / ProctorU** with Guardian secure browser (AI + human proctors) |
 | **Scheduling** | Up to 60 days in advance via [certification.adobe.com](https://certification.adobe.com/); $10 fee within 24 hrs; free reschedule >24 hrs before |
 | **Summit 2026** | Free exam voucher with full conference pass (April 19-22, Las Vegas) |
-| **Renewal Status** | **ON HOLD** — Adobe overhauling the renewal process; certifications expiring in the hold window auto-extended. Monitor the portal. |
+| **Renewal Status** | **RESUMED** (relaunched ~March 2025) — module-based renewal (two ~15-min modules), free for most certs, 2-year validity. See [renewal note](#certification-renewal-resumed) below. |
 | **Last Official Update** | Exam last updated **October 21, 2024**; **not retired or replaced** as of mid-2026 |
 | **Language** | English only |
 
@@ -52,31 +52,43 @@ Exam Relevance:
 └── Recognize when a monolithic scenario should be decomposed
 ```
 
-### New & Updated Connectors
+### New & Updated Connectors (Research-Confirmed)
 
 ```
 Connector Updates (2025-2026):
-├── Updated Workfront connector (Oct 2025)
-│   └── Aligned with Workfront API v21
-│   └── New modules for Planning objects
-├── Microsoft SharePoint Online module (Feb 2026)
-├── Adobe Firefly integration
-│   └── Image generation, resizing, and transformation in scenarios
-├── Adobe Agent Studio touchpoints (AI orchestration)
+├── Workfront connector upgrades
+│   ├── New Workfront API released May 5, 2025 — Fusion modules updated to match
+│   └── Further connector update Oct 22, 2025
+├── Unified Review & Approvals connector (2025)
+│   ├── Modules: create/update approval stages, add participants,
+│   │   send reminders, make decisions, get suggested approvers
+│   └── ⚠️ Scenarios using the OLD approval approach need remediation
+├── Frame.io V4 modules (account-level metadata read/create/update/delete)
+├── Veeva Vault modules expanded (Oct 2025) incl. single object-record update
+├── Adobe Workfront Planning connector modules
+├── Microsoft SharePoint — new Microsoft Entra certificate-based auth
+├── Webhook security — ability to add credentials to webhooks
 └── Rolling connector release cadence (frequent updates)
 ```
 
-### AI-Assisted Scenario Building (Emerging)
+> **Deprecation (Fusion-specific):** Legacy Fusion **Photoshop** modules are deprecated **after July 30, 2026** — migrate active scenarios. Figma (Legacy) connection deprecated (Jan 2025). JWT credentials for the Adobe Authenticator connector stopped working after Jan 1, 2025 (use OAuth). Legacy Workfront modules were removed from the module selector in **May 2025** (replaced by custom-form-aware modules).
+
+### Adobe Firefly Connector in Fusion (Confirmed)
 
 ```
-AI in Fusion (2025-2026 direction):
-├── AI assistance for scenario design (guided building)
-├── Firefly modules for generative image tasks within flows
-├── Integration with Adobe's broader Agent Studio strategy
-└── Note: Core exam still tests manual scenario construction —
-    AI features are supplementary, not a replacement for
-    understanding modules, functions, and flow control
+Firefly modules available in Fusion:
+├── Generate an image
+├── Generate images with Image5 (newer model)
+├── Generate video
+├── Expand image / Fill image
+├── Generate adaptive / object / precise composite
+├── Generate similar images
+└── Make a custom API call
+
+Also available: OpenAI (ChatGPT & DALL-E) connector.
 ```
+
+> **Reality check:** A dedicated "AI scenario builder" *inside* Fusion is **NOT confirmed** in Adobe release notes as of mid-2026. The confirmed AI story is (a) the **Firefly connector** for generative image/video tasks within scenarios and (b) the broader Workfront **Workflow Optimization Agent** (a Workfront platform agent, announced Summit 2026, still rolling out). The core exam still tests **manual** scenario construction — modules, functions, flow control, and error handling.
 
 ### Platform & UX Improvements
 
@@ -134,6 +146,28 @@ Fusion Certification Landscape:
     ├── AD0-E902 → prove deep Fusion/integration skill
     └── AD0-E907 → prove broad Workfront platform expertise
 ```
+
+---
+
+## Certification Renewal (Resumed)
+
+```
+Adobe Certification Renewal — status as of mid-2026:
+├── RELAUNCHED (~March 2025) with a simplified, module-based process
+│   ├── Renew by passing TWO short renewal modules (~15 min each)
+│   ├── FREE for most Digital Experience / Document Cloud certs
+│   ├── 2-year validity; renewal window opens 180 days before expiry
+│   └── Renewing one cert in an application renews the others in it
+├── During the earlier pause, certs expiring Oct 14, 2024 – Sep 30, 2025
+│   were auto-extended to Oct 1, 2025
+├── Exceptions: Captivate & ColdFusion require a full retake ($99)
+└── ⚠️ CAVEAT: Some Experience League "renew" doc pages (updated
+    May 21, 2026) STILL show a stale "temporarily on hold" banner
+    that contradicts the live portal. Trust the portal
+    (certification.adobe.com) as authoritative.
+```
+
+> **Bottom line:** Renewal is operational again. If your credential is nearing expiry, check the **"Renewals" tab** in My Account on the new portal rather than the legacy doc banner.
 
 ---
 
