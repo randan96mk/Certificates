@@ -110,10 +110,14 @@ Common JSON Patterns:
 Custom Webhook Setup:
 1. Add "Custom Webhook" trigger module
 2. Fusion generates unique URL:
-   https://hook.us1.make.com/xxxxxxxxxxxxxxxx
+   https://<host>.adobe.com/xxxxxxxxxxxxxxxx
+   (Post Oct 1, 2026 Unified Experience migration, webhook URLs end in
+    adobe.com. Older scenarios may still show a hook.*.make.com URL.)
 3. Configure in external system to POST to this URL
-4. Define Data Structure (expected payload schema)
-5. First request: "Redetermine data structure" to auto-detect
+4. Secure the webhook — as of Aug 23, 2026 webhooks require an authToken
+   by default (API key or HMAC auth)
+5. Define Data Structure (expected payload schema)
+6. First request: "Redetermine data structure" to auto-detect
 
 Webhook Features:
 ├── Instant execution (no polling delay)
