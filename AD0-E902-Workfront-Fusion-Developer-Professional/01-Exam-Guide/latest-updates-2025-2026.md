@@ -102,6 +102,71 @@ Also available: OpenAI (ChatGPT & DALL-E) connector.
 
 ---
 
+## Q4 2026 Update (August–October 2026, Adobe-Confirmed)
+
+Source: Adobe [Fusion release activity](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity) (weekly pages).
+
+### ⚠️ Adobe Unified Experience Migration (Oct 1, 2026)
+
+```
+Fusion completed its migration to the Adobe Unified Experience on Oct 1, 2026:
+├── ALL webhook URLs now end in adobe.com
+│   └── The old hook.*.make.com domains are superseded
+├── Fusion IMS onboarding deadline was Oct 1, 2026 (now complete)
+└── Access is now through the Adobe unified shell / IMS identity
+```
+
+> **Exam/Study Note:** Any older material (including earlier pages in this repo) showing a `hook.us1.make.com` webhook URL reflects the pre-Oct-2026 domain. New custom webhooks now use an **adobe.com** URL.
+
+### Webhook Security Hardened by Default
+
+```
+├── Webhooks secured by default with an authToken (effective Aug 23, 2026)
+├── New webhook auth types: API key (now default) and HMAC (Sep 7)
+└── Custom webhook tokens supported (Sep 7)
+```
+
+> This changes the old "no auth needed" mental model — new webhooks require a token by default. Expect scenario/security questions to assume secured webhooks.
+
+### New MCP Connectors & AI (Fusion's 2026 AI story)
+
+```
+├── Fusion MCP Server (Sep 28) + Adobe Fusion MCP connector (Oct 19)
+│   └── Natural-language prompt → hosted Fusion MCP server
+├── Adobe Workfront MCP connector (Aug 17)
+├── Fusion AEM MCP connector (Sep 7)
+├── Adobe Marketo Engage MCP connector (Sep 28)
+├── "Describe with AI" for scenario documentation (Sep 7)
+└── 6 new mapping variables: scenarioUrl, teamId, organizationId, etc. (Oct 19)
+```
+
+### New Modules, Connectors & Auth
+
+```
+├── HTTP "Make a JWT request" module (Oct 5)
+├── HTTP retry-status-code configuration (Oct 5)
+├── Federated authentication for AWS S3, Azure DevOps, SharePoint (Oct 12)
+│   └── Service-principal connections for Azure DevOps/SharePoint (Aug 17)
+├── Jira service-account connection types (Oct 5); Salesforce PKCE auth (Sep 14)
+├── Unified Review & Approvals: "Watch approval events" trigger (Sep 28)
+│   └── 10 new grouped-approval modules (Sep 14)
+├── New Workfront Fusion connector — manage your org via its own API (Aug 31)
+├── Adobe Enterprise Storage Management (ESM) Storage area in Fusion (Aug 31)
+├── Export Scenarios module (Sep 7); custom UI extensions via App Builder (Aug 17)
+├── Marketo bulk-extract modules (Sep 28)
+└── "Move modules to a chain" (Beta, Aug 24) — supports chain-scenario design
+```
+
+### Deprecations (Fusion, Q4 2026)
+
+```
+├── Veeva Vault "Create multiple annotations" old version → Legacy (Oct 5)
+├── Planning V2 record modules — older versions marked Legacy (Aug 31)
+└── Legacy Fusion connector (API v20) retirement still scheduled for 28.4 (Apr 2028)
+```
+
+---
+
 ## Make.com Platform Relationship
 
 ```
@@ -112,7 +177,8 @@ What this means for the exam:
 │   routers, iterators, aggregators, data stores, functions
 ├── Fusion-specific: deep Workfront connector, Adobe SSO/IMS auth,
 │   Adobe support and SLAs
-├── Webhook URLs historically use hook.*.make.com domains
+├── Webhook URLs historically used hook.*.make.com domains —
+│   as of the Oct 1, 2026 Unified Experience migration they now end in adobe.com
 └── Function syntax and error-handling directives mirror Make
 ```
 
