@@ -205,6 +205,87 @@ Q3 2026 (26.5–26.7, through July 15-16):
 
 ---
 
+## Q4 2026 Update (August–October 2026, Adobe-Confirmed)
+
+Release cadence this quarter: **26.8** (Fast, Aug 13) · **26.9** (Fast, Sep 17) · **26.10 / quarterly** (Oct 22), plus several off-schedule releases. Source: Adobe [26 Q4 Release Overview](https://experienceleague.adobe.com/en/docs/workfront/using/product-announcements/product-releases/release-26-q4/26-q4-release-overview).
+
+### AI Agents — Major Status Change
+
+```
+AI Collaborators (productized successor to the "Workflow Optimization Agent"):
+├── Task Collaborators SHIPPED in 26.8 (Fast release, Aug 13, 2026)
+├── Collaborators now work on TASKS and ISSUES (not just projects)
+├── Use document context and post real-time updates
+├── Preview expansions Oct 1 / Oct 22
+└── Press reports "GA Aug 13" with a task agent + brand-compliance
+    reviewer available and a project coordinator "coming soon"
+    (Adobe release notes confirm the capabilities; they use rollout
+    dates rather than an explicit "GA" label)
+
+CX Enterprise Coworker:
+├── Conversational interface REPLACING the classic AI Assistant
+├── Phased rollout from Sep 3 (Preview) / Sep 17 (Fast) / Oct 22
+└── Also surfaces in Workfront Planning
+
+Workfront MCP Server — new tools this quarter:
+├── Search Users tool (Aug 13) — deprecates 6 older lookup tools
+├── AEM + approval tools (Aug 12); Approvals tools with parallel paths
+├── Board tools; Share Feedback tool
+└── MCP redirect-URL allowlist for custom AI agent platforms (Preview Sep 22)
+```
+
+> **Exam Impact:** The old "AI Assistant" is being replaced by **CX Enterprise Coworker**, and the Summit "Workflow Optimization Agent" is now productized as **AI Collaborators** (Task Collaborators GA in 26.8). If studying the AI story, use the current names.
+
+### Other Confirmed Q4 2026 Features
+
+```
+Administration:
+├── Employment history view (rate/role change tracking)
+├── AI custom localization (AI translations of custom text)
+├── Event Subscriptions management area in Setup
+├── Non-admin event subscriptions via IMS tokens (off-schedule Oct 16)
+├── Default access level for Admin Console-provisioned users
+└── Layout-template main-menu show/hide; form-designer choice editing
+
+Reporting:
+├── Pivot table reports (Preview Aug 27)
+├── Canvas Dashboards on GCP and Azure — OPEN BETA (Oct 22)
+├── Reporting MCP tools for Canvas Dashboards; copy/move widgets
+├── Snowflake private listing for Data Connect
+└── Scheduled-report mandatory end dates
+
+Documents & Proofing:
+├── Grouped document approvals — one workflow for multiple docs (Oct 22)
+├── Web link as a document with live-page approval (off-schedule Oct 15)
+├── Projects panel in Creative Cloud apps (Photoshop/Illustrator/InDesign, Oct 1)
+├── Teams as approvers; redesigned Versions and Approvals panels
+├── Frame.io viewer-comment visibility; C2PA metadata preservation (Aug 26)
+└── Desktop Proofing Viewer 2.2.1 (production Sep 17)
+
+Financials:
+├── Company billing-rate redesign; billing rates on templates
+├── Attribute-hierarchy linking (Workflow Ultimate)
+└── Financial fields preserved from templates
+
+Requests:
+├── 3-year historical request access
+└── AI Form Fill with linked records (off-schedule Sep 22)
+
+Workfront Planning (all Production Oct 22):
+├── Business rules for record types
+├── Field-level sharing permissions
+├── Planning request sharing + multi-stage approvals
+├── Aggregators; custom weeks in timeline; change workspace owner
+└── Manage business rules with Coworker + Workfront MCP server (Oct 12)
+```
+
+### API Status (Confirmed)
+
+- **No new API version beyond v22** (May 8, 2026). No v23 is listed as of Oct 2026 — do not assume one.
+- **No Planning API version change** in Q4 (Planning API v2 remains current).
+
+---
+
 ## Deprecated / Retired Features
 
 | Feature | Status | Replacement |
@@ -216,6 +297,9 @@ Q3 2026 (26.5–26.7, through July 15-16):
 | Text with Formatting field | **Replaced Q2 2026** | Rich Text Fields |
 | Legacy Fusion Photoshop modules | **Deprecated after July 30, 2026** | Migrate scenarios to current modules |
 | Enhanced Analytics | **Deprecating (ongoing)** | Workfront Data Connect |
+| Data Connect password-only login | **Ended Aug 8, 2026** | MFA required for Reader users (lapsed users need a new profile) |
+| 6 older MCP lookup tools | **Deprecated Aug 13, 2026** | Search Users MCP tool |
+| Legacy rate fields (Billing/Cost Per Hour) | **Removed from API & Job Role views Jan 2027** | New company billing-rate model |
 
 > **Architect Tip:** If you see exam questions about Jira/Salesforce integrations, the correct answer for new implementations is now "Use Fusion" rather than legacy connectors.
 
